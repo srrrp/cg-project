@@ -1,6 +1,6 @@
 ## Particle Generator
 
-Particle generated built with Javascript.
+Particle generator built with Javascript.
 
 
 
