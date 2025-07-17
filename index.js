@@ -19,6 +19,9 @@ const main = () => {
     const run = (currentElapsedTs) => {
         unimportantCanvasDrawStuff(ctx);
 
+        ctx.fillStyle = 'rgba(0, 0, 0, 0.02)';
+        ctx.fillRect(0, 0, ctx.canvas.width, ctx.canvas.height);
+
         deltaTs = currentElapsedTs - lastElapsedTs;
         lastElapsedTs = currentElapsedTs;
 
